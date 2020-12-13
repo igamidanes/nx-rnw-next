@@ -14,3 +14,4 @@ yarn add @nrwl/next
 
 yarn nx g @nrwl/next:app rct-nxt
 
+yarn nx g @nrwl/react:lib UiComponent1
