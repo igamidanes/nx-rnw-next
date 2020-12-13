@@ -85,6 +85,31 @@
           }
         }
       }
+    },
+    "ui-component1": {
+      "root": "libs/ui-component1",
+      "sourceRoot": "libs/ui-component1/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/ui-component1/**/*.{ts,tsx,js,jsx}"
+            ]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/libs/ui-component1"
+          ],
+          "options": {
+            "jestConfig": "libs/ui-component1/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   },
   "cli": {

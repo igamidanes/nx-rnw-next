@@ -29,6 +29,9 @@
     "rct-nxt-e2e": {
       "tags": [],
       "implicitDependencies": ["rct-nxt"]
+    },
+    "ui-component1": {
+      "tags": []
     }
   }
 }
